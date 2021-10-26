@@ -1,4 +1,4 @@
-package com.epam.gyopos.gateway;
+package com.epam.gyopos.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
