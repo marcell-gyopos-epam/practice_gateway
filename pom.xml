@@ -12,7 +12,7 @@
 	<modules>
 		<module>web-rest</module>
 		<module>web-soap</module>
-		<module>dao</module>
+		<module>domain</module>
 	</modules>
 
 
@@ -21,7 +21,6 @@
 		<spring-boot-starter-web.version>2.5.2</spring-boot-starter-web.version>
 		<lombok.version>1.18.20</lombok.version>
 		<spring-boot-starter-test.version>2.5.3</spring-boot-starter-test.version>
-		<hibernate-core.validator>5.5.3.Final</hibernate-core.validator>
 	</properties>
 
 	<dependencies>
@@ -29,11 +28,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>${spring-boot-starter-web.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>${hibernate-core.validator}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
